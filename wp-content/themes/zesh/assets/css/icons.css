@@ -1,0 +1,429 @@
+@font-face {
+  font-family: "mrz-iconset";
+  src: url("../fonts/mrz-iconset.eot?4jb1uk");
+  src: url("../fonts/mrz-iconset.eot?4jb1uk#iefix") format("embedded-opentype"),
+    url("../fonts/mrz-iconset.ttf?4jb1uk") format("truetype"),
+    url("../fonts/mrz-iconset.woff?4jb1uk") format("woff"),
+    url("../fonts/mrz-iconset.svg?4jb1uk#mrz-iconset") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "zesh";
+  src: url("../fonts/zesh.eot?nai63e");
+  src: url("../fonts/zesh.eot?nai63e#iefix") format("embedded-opentype"),
+    url("../fonts/zesh.ttf?nai63e") format("truetype"),
+    url("../fonts/zesh.woff?nai63e") format("woff"),
+    url("../fonts/zesh.svg?nai63e#zesh") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="mrz-"],
+[class*=" mrz-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "mrz-iconset" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mrz-airplane:before {
+  content: "\e900";
+}
+.mrz-alarm:before {
+  content: "\e901";
+}
+.mrz-alert:before {
+  content: "\e902";
+}
+.mrz-arrow-bottom:before {
+  content: "\e903";
+}
+.mrz-arrow-left:before {
+  content: "\e904";
+}
+.mrz-arrow-right:before {
+  content: "\e905";
+}
+.mrz-arrow-short-bottom:before {
+  content: "\e906";
+}
+.mrz-arrow-short-left:before {
+  content: "\e907";
+}
+.mrz-arrow-short-right:before {
+  content: "\e908";
+}
+.mrz-arrow-short-top:before {
+  content: "\e909";
+}
+.mrz-arrow-top:before {
+  content: "\e90a";
+}
+.mrz-attach:before {
+  content: "\e90b";
+}
+.mrz-avatar:before {
+  content: "\e90c";
+}
+.mrz-bell:before {
+  content: "\e90d";
+}
+.mrz-bolt:before {
+  content: "\e90e";
+}
+.mrz-bookmark:before {
+  content: "\e90f";
+}
+.mrz-calendar:before {
+  content: "\e910";
+}
+.mrz-camera:before {
+  content: "\e911";
+}
+.mrz-card:before {
+  content: "\e912";
+}
+.mrz-cart:before {
+  content: "\e913";
+}
+.mrz-chat:before {
+  content: "\e914";
+}
+.mrz-check:before {
+  content: "\e915";
+}
+.mrz-close:before {
+  content: "\e916";
+}
+.mrz-cosmos:before {
+  content: "\e917";
+}
+.mrz-dribbble:before {
+  content: "\e918";
+}
+.mrz-eye:before {
+  content: "\e919";
+}
+.mrz-file:before {
+  content: "\e91a";
+}
+.mrz-fingerprint:before {
+  content: "\e91b";
+}
+.mrz-folder:before {
+  content: "\e91c";
+}
+.mrz-folder-open:before {
+  content: "\e91d";
+}
+.mrz-fower:before {
+  content: "\e91e";
+}
+.mrz-gallery:before {
+  content: "\e91f";
+}
+.mrz-gift:before {
+  content: "\e920";
+}
+.mrz-globe:before {
+  content: "\e921";
+}
+.mrz-heart:before {
+  content: "\e922";
+}
+.mrz-icp:before {
+  content: "\e923";
+}
+.mrz-image:before {
+  content: "\e924";
+}
+.mrz-invisible:before {
+  content: "\e925";
+}
+.mrz-key:before {
+  content: "\e926";
+}
+.mrz-label:before {
+  content: "\e927";
+}
+.mrz-link:before {
+  content: "\e928";
+}
+.mrz-list:before {
+  content: "\e929";
+}
+.mrz-location:before {
+  content: "\e92a";
+}
+.mrz-locked:before {
+  content: "\e92b";
+}
+.mrz-login:before {
+  content: "\e92c";
+}
+.mrz-logout:before {
+  content: "\e92d";
+}
+.mrz-mail:before {
+  content: "\e92e";
+}
+.mrz-map:before {
+  content: "\e92f";
+}
+.mrz-microphone:before {
+  content: "\e930";
+}
+.mrz-money:before {
+  content: "\e931";
+}
+.mrz-moon:before {
+  content: "\e932";
+}
+.mrz-mountain:before {
+  content: "\e933";
+}
+.mrz-pass:before {
+  content: "\e934";
+}
+.mrz-phone:before {
+  content: "\e935";
+}
+.mrz-refresh:before {
+  content: "\e936";
+}
+.mrz-rocket:before {
+  content: "\e937";
+}
+.mrz-settings:before {
+  content: "\e938";
+}
+.mrz-sun:before {
+  content: "\e939";
+}
+.mrz-sync:before {
+  content: "\e93a";
+}
+.mrz-tag:before {
+  content: "\e93b";
+}
+.mrz-thumbs-down:before {
+  content: "\e93c";
+}
+.mrz-thumbs-up:before {
+  content: "\e93d";
+}
+.mrz-trash:before {
+  content: "\e93e";
+}
+.mrz-unlocked:before {
+  content: "\e93f";
+}
+.mrz-user:before {
+  content: "\e940";
+}
+.mrz-wifi:before {
+  content: "\e941";
+}
+.mrz-world:before {
+  content: "\e942";
+}
+.mrz-algorand:before {
+  content: "\e943";
+}
+.mrz-zcash:before {
+  content: "\e944";
+}
+.mrz-youtube:before {
+  content: "\e945";
+}
+.mrz-xrp:before {
+  content: "\e946";
+}
+.mrz-usdc:before {
+  content: "\e947";
+}
+.mrz-uniswap:before {
+  content: "\e948";
+}
+.mrz-twitter:before {
+  content: "\e949";
+}
+.mrz-tron:before {
+  content: "\e94a";
+}
+.mrz-thor-chain:before {
+  content: "\e94b";
+}
+.mrz-tether:before {
+  content: "\e94c";
+}
+.mrz-stellar:before {
+  content: "\e94d";
+}
+.mrz-solana:before {
+  content: "\e94e";
+}
+.mrz-sandbox:before {
+  content: "\e94f";
+}
+.mrz-polygon:before {
+  content: "\e950";
+}
+.mrz-polkadot:before {
+  content: "\e951";
+}
+.mrz-pinterest:before {
+  content: "\e952";
+}
+.mrz-pancakeswap:before {
+  content: "\e953";
+}
+.mrz-near:before {
+  content: "\e954";
+}
+.mrz-monero:before {
+  content: "\e955";
+}
+.mrz-medium:before {
+  content: "\e956";
+}
+.mrz-litecoin:before {
+  content: "\e957";
+}
+.mrz-linked-in:before {
+  content: "\e958";
+}
+.mrz-kucoin:before {
+  content: "\e959";
+}
+.mrz-helium:before {
+  content: "\e95a";
+}
+.mrz-hedera:before {
+  content: "\e95b";
+}
+.mrz-harmony:before {
+  content: "\e95c";
+}
+.mrz-graph:before {
+  content: "\e95d";
+}
+.mrz-github:before {
+  content: "\e95e";
+}
+.mrz-ftx:before {
+  content: "\e95f";
+}
+.mrz-flow:before {
+  content: "\e960";
+}
+.mrz-filecoin:before {
+  content: "\e961";
+}
+.mrz-fantom:before {
+  content: "\e962";
+}
+.mrz-facebook:before {
+  content: "\e963";
+}
+.mrz-etherium:before {
+  content: "\e964";
+}
+.mrz-eos:before {
+  content: "\e965";
+}
+.mrz-elrond:before {
+  content: "\e966";
+}
+.mrz-dai:before {
+  content: "\e967";
+}
+.mrz-cronos:before {
+  content: "\e968";
+}
+.mrz-cookie:before {
+  content: "\e969";
+}
+.mrz-bnb:before {
+  content: "\e96a";
+}
+.mrz-bitcoin:before {
+  content: "\e96b";
+}
+.mrz-behance:before {
+  content: "\e96c";
+}
+.mrz-avalanche:before {
+  content: "\e96d";
+}
+.mrz-apecoin:before {
+  content: "\e96e";
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "zesh" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\e901";
+}
+.icon-instagram:before {
+  content: "\e902";
+}
+.icon-left:before {
+  content: "\e903";
+}
+.icon-linkedin:before {
+  content: "\e904";
+}
+.icon-reddit:before {
+  content: "\e905";
+}
+.icon-right:before {
+  content: "\e906";
+}
+.icon-telegram:before {
+  content: "\e907";
+}
+.icon-tik-tok:before {
+  content: "\e908";
+}
+.icon-x:before {
+  content: "\e909";
+}
+.icon-youtube:before {
+  content: "\e90a";
+}
+.icon-discord:before {
+  content: "\e90b";
+}
+.icon-medium:before {
+  content: "\e956";
+}

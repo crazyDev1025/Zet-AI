@@ -1,0 +1,459 @@
+/* ==========================================================================
+   Animations
+   ========================================================================== */
+
+/* Animation Container */
+
+.animate {
+}
+
+/* Animation Item */
+
+.animate-elem {
+  transition: all 1s ease;
+}
+
+/* Animation Delay */
+
+.animate-delay-01 {
+  transition: all 1s 0.1s ease;
+}
+
+.animate-delay-02 {
+  transition: all 1s 0.2s ease;
+}
+
+.animate-delay-03 {
+  transition: all 1s 0.3s ease;
+}
+
+.animate-delay-04 {
+  transition: all 1s 0.4s ease;
+}
+
+.animate-delay-05 {
+  transition: all 1s 0.5s ease;
+}
+
+.animate-delay-06 {
+  transition: all 1s 0.6s ease;
+}
+
+.animate-delay-07 {
+  transition: all 1s 0.7s ease;
+}
+
+.animate-delay-08 {
+  transition: all 1s 0.8s ease;
+}
+
+.animate-delay-09 {
+  transition: all 1s 0.9s ease;
+}
+
+.animate-delay-10 {
+  transition: all 1s 0s ease;
+}
+
+.animate-delay-11 {
+  transition: all 1s 1s ease;
+}
+
+.animate-delay-12 {
+  transition: all 1s 1.2s ease;
+}
+
+.animate-delay-13 {
+  transition: all 1s 3s ease;
+}
+
+.animate-delay-14 {
+  transition: all 1s 4s ease;
+}
+
+.animate-delay-15 {
+  transition: all 1s 1.5s ease;
+}
+
+.animate-delay-16 {
+  transition: all 1s 6s ease;
+}
+
+.animate-delay-17 {
+  transition: all 1s 1.7s ease;
+}
+
+.animate-delay-18 {
+  transition: all 1s 8s ease;
+}
+
+.animate-delay-19 {
+  transition: all 1s 9s ease;
+}
+
+.animate-delay-20 {
+  transition: all 1s 2s ease;
+}
+
+.animate-delay-21 {
+  transition: all 1s 2.1s ease;
+}
+
+.animate-delay-22 {
+  transition: all 1s 2.2s ease;
+}
+.animate-delay-23 {
+  transition: all 1s 2.3s ease;
+}
+
+.animate-delay-24 {
+  transition: all 1s 2.4s ease;
+}
+
+.animate-delay-25 {
+  transition: all 1s 2.5s ease;
+}
+
+.animate-delay-26 {
+  transition: all 1s 2.6s ease;
+}
+
+.animate-delay-27 {
+  transition: all 1s 2.7s ease;
+}
+
+.animate-delay-28 {
+  transition: all 1s 2.8s ease;
+}
+
+.animate-delay-29 {
+  transition: all 1s 2.2s ease;
+}
+
+.animate-delay-30 {
+  transition: all 1s 3s ease;
+}
+
+.animate-delay-35 {
+  transition: all 1s 3.5s ease;
+}
+
+.animate-delay-40 {
+  transition: all 1s 4s ease;
+}
+
+.animate-delay-45 {
+  transition: all 1s 4.5s ease;
+}
+
+.animate-delay-50 {
+  transition: all 1s 5s ease;
+}
+
+.animate-delay-55 {
+  transition: all 1s 5.5s ease;
+}
+
+.animate-delay-60 {
+  transition: all 1s 6s ease;
+}
+
+.animate-delay-65 {
+  transition: all 1s 6.5s ease;
+}
+
+.animate-delay-70 {
+  transition: all 1s 7s ease;
+}
+
+.animate-delay-75 {
+  transition: all 1s 7.5s ease;
+}
+
+.animate-delay-80 {
+  transition: all 1s 8s ease;
+}
+
+.animate-delay-85 {
+  transition: all 1s 8.5s ease;
+}
+
+.animate-delay-90 {
+  transition: all 1s 9s ease;
+}
+
+.animate-delay-95 {
+  transition: all 1s 9.5s ease;
+}
+
+/* Animation Duration */
+
+.animate-duration-02 {
+  transition-duration: 0.2s;
+}
+
+.animate-duration-05 {
+  transition-duration: 0.5s;
+}
+
+.animate-duration-10 {
+  transition-duration: 1s;
+}
+
+.animate-duration-15 {
+  transition-duration: 1.5s;
+}
+
+.animate-duration-20 {
+  transition-duration: 2s;
+}
+
+.animate-duration-25 {
+  transition-duration: 2.5s;
+}
+
+.animate-duration-30 {
+  transition-duration: 3s;
+}
+
+.animate-duration-35 {
+  transition-duration: 3.5s;
+}
+
+.animate-duration-40 {
+  transition-duration: 4s;
+}
+
+.animate-duration-45 {
+  transition-duration: 4.5s;
+}
+
+.animate-duration-50 {
+  transition-duration: 5s;
+}
+
+.animate-duration-55 {
+  transition-duration: 5.5s;
+}
+
+.animate-duration-60 {
+  transition-duration: 6s;
+}
+
+.animate-duration-65 {
+  transition-duration: 6.5s;
+}
+
+.animate-duration-70 {
+  transition-duration: 7s;
+}
+
+.animate-duration-75 {
+  transition-duration: 7.5s;
+}
+
+.animate-duration-80 {
+  transition-duration: 8s;
+}
+
+.animate-duration-85 {
+  transition-duration: 8.5s;
+}
+
+.animate-duration-90 {
+  transition-duration: 9s;
+}
+
+.animate-duration-95 {
+  transition-duration: 9.5s;
+}
+
+.animate-duration-100 {
+  transition-duration: 10s;
+}
+
+/* Animation Fade */
+
+.animate-fadeIn {
+  opacity: 1;
+}
+
+.animate.active .animate-fadeIn {
+  opacity: 1;
+}
+
+/* Animation Scale Up */
+
+.animate .animate-scale-from-small {
+  transform: scale(0.95);
+}
+.animate.active .animate-scale-from-small {
+  transform: scale(1);
+}
+
+/* Animation Down */
+
+.animate .animate-scale-from-big {
+  transform: scale(1.2);
+}
+.animate.active .animate-scale-from-big {
+  transform: scale(1);
+}
+
+/* Animation Slide Down */
+
+.animate .animate-slideFromTop {
+  top: -100px;
+}
+.animate.active .animate-slideFromTop {
+  top: 0;
+}
+
+/* Animation Slide Up */
+
+.animate-slideFromBottom {
+  top: 50px;
+}
+.animate.active .animate-slideFromBottom {
+  top: 0;
+}
+
+/* Animation Slide Right */
+
+.animate .animate-slideFromLeft {
+  left: -50px;
+}
+.animate.active .animate-slideFromLeft {
+  left: 0;
+}
+
+/* Animation Slide Left */
+
+.animate .animate-slideFromRight {
+  right: -100px;
+}
+.animate.active .animate-slideFromRight {
+  right: 0;
+}
+
+/* Animation Pulse */
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.95);
+  }
+}
+
+/* Animation Glow and Pulse */
+
+@keyframes pulse-glow {
+  0% {
+    transform: scale(0.95);
+    filter: drop-shadow(0 0 20px #e4198300);
+  }
+
+  20% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 20px #df25d2);
+  }
+
+  100% {
+    transform: scale(0.95);
+    filter: drop-shadow(0 0 20px #e4198300);
+  }
+}
+
+/* Animation Ininite Rotation */
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Animation Scale Out */
+
+@keyframes scale-out-center {
+  80% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  90% {
+    transform: scale(2);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(0);
+    opacity: 1;
+  }
+}
+
+/* Animation Rotation */
+
+@keyframes rotation {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Animation Mouse Scroll */
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(15px);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 980px) {
+  /*disable animations for small displays*/
+  .animate-elem {
+    transition: all;
+    transition-duration: 0s;
+  }
+
+  .animate .animate-fadeIn {
+    opacity: 1;
+  }
+
+  .animate .animate-slideFromTop {
+    top: 0;
+  }
+
+  .animate .animate-slideFromBottom {
+    top: 0;
+  }
+
+  .animate .animate-slideFromLeft {
+    left: 0;
+  }
+
+  .animate .animate-slideFromRight {
+    right: 0;
+  }
+
+  .animate .animate-scale-from-small {
+    transform: scale(1);
+  }
+
+  .animate .animate-scale-from-big {
+    transform: scale(1);
+  }
+}
