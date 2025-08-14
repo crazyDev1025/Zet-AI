@@ -89,7 +89,7 @@
 
 .btn--normal::after {
   content: url("/wp-content/themes/zesh/assets/images/btn-arrow.svg");
-  font-family: "zesh";
+  font-family: "zet";
   position: relative;
   transition: all 0.2s ease;
   color: var(--color-black) !important;
@@ -121,7 +121,7 @@
 
 .btn--cta::after {
   content: "\e900";
-  font-family: "zesh";
+  font-family: "zet";
   position: relative;
   transition: all 0.2s ease;
   color: var(--color-white);

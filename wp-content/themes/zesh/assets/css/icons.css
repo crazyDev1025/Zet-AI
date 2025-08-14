@@ -11,7 +11,7 @@
 }
 
 @font-face {
-  font-family: "zesh";
+  font-family: "zet";
   src: url("../fonts/zesh.eot?nai63e");
   src: url("../fonts/zesh.eot?nai63e#iefix") format("embedded-opentype"),
     url("../fonts/zesh.ttf?nai63e") format("truetype"),
@@ -375,7 +375,7 @@
 [class^="icon-"],
 [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "zesh" !important;
+  font-family: "zet" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;

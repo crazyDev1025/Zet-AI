@@ -562,7 +562,7 @@ header {
 
 .footer-area li a::before {
   content: "\e900";
-  font-family: "zesh";
+  font-family: "zet";
   position: relative;
   display: block;
   opacity: 1;
@@ -1009,7 +1009,7 @@ header {
 
 .slick-prev:before,
 .slick-next:before {
-  font-family: "zesh";
+  font-family: "zet";
   opacity: 1;
 }
 
@@ -1321,7 +1321,7 @@ header {
 }
 
 .player-btn .mrz-play:before {
-  font-family: "zesh";
+  font-family: "zet";
   content: "\e906";
   font-size: 52px;
   color: var(--color-white);
